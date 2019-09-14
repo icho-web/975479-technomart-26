@@ -46,7 +46,7 @@
         <li>Автотрейдинг</li>
         <li>ЖелДорЭкспедиция</li>
       </ul>
-      <button type="button">Подробнее о компании</button>
+      <a href="#">Подробнее о компании</a>
     </section>
     <section>
       <h2>Контакты</h2>
@@ -61,13 +61,13 @@
       </div>
     </div>
     <div>
-      <form>
+      <form method="get" action="https://echo.htmlacademy.ru">
         <label for="name">Ваше имя:</label>
-        <input id="name" type="text" placeholder="Имя Фамилия">
+        <input name="name" id="name" type="text" placeholder="Имя Фамилия">
         <label for="e-mail">Ваш e-mail:</label>
-        <input id="e-mail" type="email" placeholder="email@example.com">
+        <input name="email" id="e-mail" type="email" placeholder="email@example.com">
         <label for="text">Текст письма:</label>
-        <input id="text" type="text" placeholder="В свободной форме">
+        <input name="text" id="text" type="text" placeholder="В свободной форме">
         <button>Отправить</button>
         <button type="button">Закрыть</button>
       </form>
