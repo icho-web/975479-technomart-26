@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Cuprum", sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 17px;
+
+    background-color: #32425c;
+}
+a {
+    text-decoration: none;
+}
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.logo{
+    background-color: #ee3643;
+}
+.main-navigation{
+    background-color: #f3f7f9;
+    color: #ee3643;
+}
+.main-navigation p:nth-child(1){
+    font-style: italic;
+    font-size: 16px;
+}
+.order{
+    background-color: #63a63e;
+}
+.button {
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    background-color: #ee3643;
+    border: none;
+  }
+.main-navigation button{
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;    
+}
+.main-navigation span{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.number{
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
+.location{
+    color: #32425c;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.main-navigation-list{
+    background-color: #293449;
+}
+.main-navigation-list,
+.user-navigation,
+.footer-navigation-list li,
+.footer-user-navigation li,
+.socials li,
+.main ul li{
+    list-style: none;
+}
+.main-navigation-list a,
+.user-navigation a {
+    color: #ffffff
+}
+.desc{
+    background-color: #ffffff;
+    color: #000000;
+}
+.desc h2{
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.desc p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.company li{
+    font-size: 18px;
+    line-height: 20px;
+    list-style: none; 
+}
+.company a{
+    background-color: #ee3643;
+}
+.map{
+    display: none;
+}
+.popup{
+    display: none;
+}
+.socials a{
+    color: #ffffff;
+}
+.footer-navigation-list{
+    color: #ffd180;
+}
+.footer-navigation{
+    background-color: #32425c;
+}
+.contacts{
+    background-color: #293449;
+    font-size: 16px;
+    line-height: 18px;
+}
+.contacts p:nth-child(2n){
+    color: #ffd180;
+}
+.login a{
+    color: #32425c;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.basket{
+    background-color: #ee3643;
+}
+.main{
+    background-color: #ffffff;
+    color: #000000;
+}
+.main h2{
+    color: #32425c;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #f3f7f9;
+}
+.main h3{
+    font-family: "PTSans",  sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.way{
+    font-family: "PTSans",  sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.manufacturer label,
+.power label{
+    font-family: "PTSans",  sans-serif;
+    font-size: 15px; 
+    text-transform: uppercase;
+}
+.power button{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "PTSans",  sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.product{
+    font-family: "PTSans",  sans-serif;
+    font-weight: bold;
+}
+.product li p:nth-child(2){
+    font-size: 18px
+}
+.product p:nth-child(4n){
+    background-color: #ee3643;
+    color: #ffffff;
+}
+.product p:nth-child(3n){
+    color: #999999;
+    text-decoration: line-through;
+
+}
