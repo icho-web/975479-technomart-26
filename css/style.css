@@ -1,13 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-
     font-family: "Cuprum", sans-serif;
     color: #ffffff;
     font-size: 17px;
     line-height: 17px;
-
-    background-color: #32425c;
 }
 a {
     text-decoration: none;
@@ -29,6 +26,7 @@ a {
 .main-navigation p:nth-child(1){
     font-style: italic;
     font-size: 16px;
+    line-height: 23px;
 }
 .order{
     background-color: #63a63e;
@@ -36,6 +34,7 @@ a {
 .button {
     font: inherit;
     text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     vertical-align: middle;
     background-color: #ee3643;
@@ -44,29 +43,27 @@ a {
 .main-navigation button{
     font-size: 21px;
     line-height: 21px;
-    font-weight: bold;
     background-color: #ffffff;
-    color: #000000;    
+    color: #000000;
+    text-transform: none;  
 }
 .main-navigation span{
     background-color: #ffffff;
     color: #000000;
     font-size: 21px;
-    font-weight: bold;
+    line-height: 21px;
 }
 .number{
     font-size: 21px;
     line-height: 21px;
-    font-weight: 700;
 }
 .location{
     color: #32425c;
     font-size: 14px;
     line-height: 24px;
-    font-weight: bold;
 }
 .main-navigation-list{
-    background-color: #293449;
+    background-color: #32425c;
 }
 .main-navigation-list,
 .user-navigation,
@@ -90,9 +87,8 @@ a {
     text-transform: uppercase;
 }
 .desc p{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
-    font-weight: bold;
 }
 .company li{
     font-size: 18px;
@@ -101,6 +97,8 @@ a {
 }
 .company a{
     background-color: #ee3643;
+    font-size: 14px;
+    line-height: 18px;
 }
 .map{
     display: none;
@@ -117,6 +115,12 @@ a {
 .footer-navigation{
     background-color: #32425c;
 }
+.footer-navigation a,
+.footer-navigation p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
 .contacts{
     background-color: #293449;
     font-size: 16px;
@@ -129,6 +133,7 @@ a {
     color: #32425c;
     text-decoration: underline;
     font-size: 16px;
+    line-height: 18px;
 }
 .basket{
     background-color: #ee3643;
@@ -140,6 +145,7 @@ a {
 .main h2{
     color: #32425c;
     font-size: 30px;
+    line-height: 30px;
     text-transform: uppercase;
     background-color: #f3f7f9;
 }
@@ -153,7 +159,7 @@ a {
     font-family: "PTSans",  sans-serif;
     text-transform: uppercase;
     font-size: 13px;
-    font-weight: bold;
+    line-height: 18px;
 }
 .manufacturer label,
 .power label{
@@ -168,19 +174,28 @@ a {
     font-size: 13px;
     text-transform: uppercase;
 }
-.product{
+.products{
     font-family: "PTSans",  sans-serif;
-    font-weight: bold;
+    font-weight: 700;
 }
-.product li p:nth-child(2){
-    font-size: 18px
+.product p:nth-child(2){
+    font-size: 18px;
+    line-height: 20px;
 }
 .product p:nth-child(4n){
     background-color: #ee3643;
     color: #ffffff;
+    line-height: 18px;
 }
 .product p:nth-child(3n){
     color: #999999;
     text-decoration: line-through;
-
+    line-height: 18px;
+}
+.user-navigation-list{
+    font-size: 17px;
+    line-height: 18px;
+}
+.user-navigation{
+    background-color: #293449;
 }

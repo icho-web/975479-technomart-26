@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -16,11 +16,21 @@
         <h1 class="visually-hidden">Техномарт</h1>
         <a href="index.html"><img src="img/logo-technomart.svg" alt="Логотип техномарта"></a>
       </div>
-      <label for="search" class="visually-hidden">Поиск</label>
-      <input id="search" type="search" placeholder="Поиск:">
-      <div><a href="#">Закладки: 0</a></div>
-      <div class="basket"><a href="#">Корзина: 10</a></div>
-      <div class="order"><a href="#">Оформить заказ</a></div>
+      <ul>
+        <li>
+          <label for="search" class="visually-hidden">Поиск</label>
+          <input id="search" type="search" placeholder="Поиск:">
+        </li>
+        <li>
+          <a href="#">Закладки: 0</a>
+        </li>
+        <li class="basket">
+          <a href="#">Корзина: 10</a>
+        </li>
+        <li class="order">
+          <a href="#">Оформить заказ</a>
+        </li>
+      </ul>
     </div>
     <div class="main-navigation">
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -49,9 +59,7 @@
         <li>Инструмент</li>
         <li>Перфораторы</li>
       </ul>
-      <span>
-        <h2>Перфораторы</h2>
-      </span>
+      <h2>Перфораторы</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <section class="manufacturer">
           <h3>Производители:</h3>
@@ -93,9 +101,9 @@
           <button type="submit" class="button">Показать</button>
       </form>
       </section>
-      <section class="product">
+      <section class="products">
         <ul>
-          <li>
+          <li class="product">
             <img src="img/Perforator_1.png">
             <p>Перфоратор Bosch BFG 3000</p>
             <p>22500 Р.</p>
@@ -105,7 +113,7 @@
               <button type="button" class="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_2.png">
             <p>Перфоратор Bosch BFG 6000</p>
             <p>22500 Р.</p>
@@ -115,7 +123,7 @@
               <button type="button" class="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_1.png">
             <p>Перфоратор Bosch BFG 2000</p>
             <p></p>
@@ -125,7 +133,7 @@
               <button type="button" class="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_2.png">
             <p>Перфоратор Bosch BFG 3000</p>
             <p>22500 Р.</p>
@@ -135,7 +143,7 @@
               <button type="button" class="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_1.png">
             <p>Перфоратор Bosch BFG 6000</p>
             <p>22500 Р.</p>
@@ -145,7 +153,7 @@
               <button type="button" class="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_2.png">
             <p>Перфоратор Bosch BFG 2000</p>
             <p></p>
@@ -155,7 +163,7 @@
               <button type="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_1.png">
             <p>Перфоратор Bosch BFG 3000</p>
             <p>22500 Р.</p>
@@ -165,7 +173,7 @@
               <button type="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_2.png">
             <p>Перфоратор Bosch BFG 6000</p>
             <p>22500 Р.</p>
@@ -175,7 +183,7 @@
               <button type="button">В закладки</button>
             </div>
           </li>
-          <li>
+          <li class="product">
             <img src="img/Perforator_1.png">
             <p>Перфоратор Bosch BFG 2000</p>
             <p></p>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -16,11 +16,21 @@
         <h1 class="visually-hidden">Техномарт</h1>
         <img src="img/logo-technomart.svg" alt="Логотип техномарта">
       </div>
-      <label for="search" class="visually-hidden">Поиск</label>
-      <input id="search" type="search" placeholder="Поиск:">
-      <div><a href="#">Закладки: 0</a></div>
-      <div><a href="#">Корзина: 0</a></div>
-      <div class="order"><a href="#">Оформить заказ</a></div>
+      <ul class="user-navigation-list">
+          <li>
+            <label for="search" class="visually-hidden">Поиск</label>
+            <input id="search" type="search" placeholder="Поиск:">
+          </li>
+          <li>
+            <a href="#">Закладки: 0</a>
+          </li>
+          <li class="basket">
+            <a href="#">Корзина: 0</a>
+          </li>
+          <li class="order">
+            <a href="#">Оформить заказ</a>
+          </li>
+        </ul>
     </div>
     <div class="main-navigation">
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
