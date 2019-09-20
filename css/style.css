@@ -39,6 +39,8 @@ a {
     vertical-align: middle;
     background-color: #ee3643;
     border: none;
+    font-size: 14px;
+    line-height: 18px;
   }
 .main-navigation button{
     font-size: 21px;
@@ -198,4 +200,134 @@ a {
 }
 .user-navigation{
     background-color: #293449;
+}
+.category-item:nth-child(1){
+    background-color: #ffbf47;
+}
+.category-item:nth-child(2){
+    background-color: #3bbce3;
+}
+.category-item:nth-child(3){
+    background-color: #dc91d8;
+}
+.category-item:nth-child(4){
+    background-color: #8ed78f;
+}
+.category-item:nth-child(5){
+    background-color: #ffc047;
+}
+.category-item h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+.category-item a{
+    font-size: 14px;
+    line-height: 18px;
+}
+.orange{
+    background-color: #e5ac40;
+}
+.blue{
+    background-color: #35a9cc;
+}
+.pink{
+    background-color: #c682c2;
+}
+.green{
+    background-color: #80c181;
+}
+.yellow{
+    background-color: #e5ad40;
+}
+.popular h2,
+.popular-manufacturers h2,
+.services h2{
+    background-color: #f9f5f0;
+    color: #32425c;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.services{
+    background-color: #f5f8fa;
+    color: #000000;
+}
+.services p{
+    font-size: 13px;
+    line-height: 24px;
+}
+.services h3{
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #32425c;
+}
+.services button{
+    font-size: 21px;
+    line-height: 30px;
+    text-transform: none;
+}
+.delivery{
+    color: #32425c;
+    background-color: #ffffff;
+}
+.garanty{
+    color: #ffffff;
+    background-color: #32425c;
+}
+.loan{
+    color: #ffffff;
+    background-color: #32425c;
+}
+.filter{
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+}
+.filter p:first-child{
+    background-color: #f7f3ec;
+    font-size: 13px;
+    line-height: 18px;
+}
+.filter p:nth-child(2){
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.filter input{
+    font-family: "PT Sans", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    background-color: #f7f3ec;
+    border: none;
+}
+.sorting{
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #f7f3ec;
+}
+.sorting button{
+    font-size: 13px;
+    line-height: 18px;
+    background: none;
+}
+.aside{
+    background-color: #f2f6f8;
+}
+.aside p:nth-child(1){
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.aside p:nth-child(2){
+    font-size: 14px;
+    line-height: 24px;
+}
+.page a{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffffff;
 }
