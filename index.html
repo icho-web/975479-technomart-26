@@ -13,8 +13,8 @@
 
 <body>
   <header class="header">
-    <div class="container">
-      <div class="user-navigation">
+    <div class="user-navigation">
+      <div class="container">
         <a href="#" class="logo">
           <h1>Техномарт</h1>
         </a>
@@ -48,6 +48,8 @@
           </li>
         </ul>
       </div>
+    </div>
+    <div class="container">
       <div class="main-navigation">
         <p class="header-desc">Интернет-магазин строительных материалов<br> и инструментов для ремонта</p>
         <div class="location-container">
@@ -73,6 +75,7 @@
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Контакты</a></li>
       </ul>
+    </div>
     </div>
   </header>
   <main>
@@ -103,12 +106,12 @@
             <div class="slide-1">
               <h2>Дрели</h2>
               <p>Соседям на радость!</p>
-              <a href="#" class="button slider-button">Открыть каталог</a>
+              <a href="catalog.html" class="button slider-button">Открыть каталог</a>
             </div>
             <div class="slide-2">
               <h2>Перфораторы</h2>
               <p>Настоящие мужские игрушки</p>
-              <a href="#" class="button slider-button">Открыть каталог</a>
+              <a href="catalog.html" class="button slider-button">Открыть каталог</a>
             </div>
           </div>
           <ul class="category-other">
@@ -187,7 +190,9 @@
           <li><img src="img/Metabo.png" alt="Metabo"></li>
         </ul>
       </section>
-      <section class="services">
+    </div>
+    <section class="services">
+      <div class="container">
         <h2>Сервисы</h2>
         <p class="services-desc">Хороший интернет-магазин отличается от плохого не только ценами!</p>
         <p class="services-desc">Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
@@ -224,7 +229,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
+    </section>
+    <div class="container">
       <div class="desc">
         <section class="company">
           <h2>Компания «Техномарт»</h2>
@@ -242,34 +249,48 @@
         </section>
         <section class="contacts">
           <h2>Контакты</h2>
-          <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-          <img src="img/map.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-          <button type="button" class="button-red">Заблудились? Напишите нам!</button>
+          <p>Вы можете забрать товар сами,</p>
+          <p>заехав в наш офис:</p>
+          <a class="contacts-button-map" href="#"><img src="img/map.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+          <button type="button" class="button-red open-popup">Заблудились? Напишите нам!</button>
         </section>
       </div>
-      <div class="map">
-        <div class="visually-hidden">
-          <img src="img/map2.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-          <button type="button">Закрыть</button>
-        </div>
-      </div>
-      <div class="popup">
-        <form method="get" action="https://echo.htmlacademy.ru">
-          <label for="name">Ваше имя:</label>
-          <input name="name" id="name" type="text" placeholder="Имя Фамилия">
-          <label for="e-mail">Ваш e-mail:</label>
-          <input name="email" id="e-mail" type="email" placeholder="email@example.com">
-          <label for="text">Текст письма:</label>
-          <input name="text" id="text" type="text" placeholder="В свободной форме">
-          <button>Отправить</button>
-          <button type="button">Закрыть</button>
-        </form>
-      </div>
     </div>
+    <section class="modal map">
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1188.3768177975783!2d30.322295013929043!3d59.93871938785906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1570712850301!5m2!1sru!2sru"
+          width="940" height="447" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <button class="modal-close" type="button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+      </div>
+    </section>
+    <section class="modal popup">
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <div class="input-field">
+          <p>
+            <label for="name">Ваше имя:</label>
+            <input class="input-size label-name" name="name" id="name" type="text" placeholder="Имя Фамилия" required>
+          </p>
+          <p>
+            <label for="e-mail">Ваш e-mail:</label>
+            <input class="input-size" name="email" required id="e-mail" type="email" placeholder="email@example.com">
+            <p class="text">
+              <label for="text">Текст письма:</label>
+              <textarea name="text" id="text" placeholder="В свободной форме" required=""></textarea>
+            </p>
+        </div>
+        <div class="send-button">
+          <button class="button-red popup-button">Отправить</button>
+        </div>
+        <button class="close-popup" type="button"><span class="visually-hidden">Закрыть</span></button>
+      </form>
+    </section>
   </main>
   <footer>
-    <div class="container">
-      <section class="footer-navigation">
+    <section class="footer-navigation">
+      <div class="container">
         <div>
           <div class="footer-logo">
             <p>Техномарт</p>
@@ -293,8 +314,10 @@
             <li><a href="#">Спецпредложения</a></li>
           </ul>
         </div>
-      </section>
-      <section class="footer-contacts">
+      </div>
+    </section>
+    <section class="footer-contacts">
+      <div class="container">
         <p class="copyright">© 2010–2019 Компания «Техномарт»<br>
           Все права защищены</p>
         <ul class="socials">
@@ -324,15 +347,18 @@
         </ul>
         <div class="feedback">
           <p>Обратная связь:</p>
-          <p>mail@htmlacademy.ru</p>
+          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
         </div>
         <div class="developed">
-          <p>Разработано —</p>
-          <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
+            <p>Разработано —</p>
+            <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
         </div>
-    </div>
+      </div>
     </section>
   </footer>
+  <script src="js/cart.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/popup.js"></script>
 </body>
 
 </html>
