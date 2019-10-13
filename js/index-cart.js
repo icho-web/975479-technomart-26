@@ -4,8 +4,8 @@ var cartClose = document.querySelector(".close-cart-popup");
 var cartColor = document.querySelector(".basket")
 
 for (var i = 0; i < cartLink.length; i++) 
-cartLink[i].addEventListener("click", function(button) {
-  button.preventDefault();
+cartLink[i].addEventListener("click", function(evt) {
+  evt.preventDefault();
   cartPopup.classList.add("modal-show");
   cartColor.classList.add("red");
 });
