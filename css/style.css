@@ -182,8 +182,9 @@ a {
 	position: relative;
 }
 .search input {
-	padding: 12px 61px 10px 48px;
+	padding: 12px 61px 12px 48px;
 	margin-right: 4px;
+	width: 266px;
 
 	font-family: inherit;
 	font-size: 17px;
