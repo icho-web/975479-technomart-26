@@ -507,7 +507,7 @@ a {
 
 .desc {
 	display: flex;
-	margin-bottom: 86px;
+	margin-bottom: 96px;
 
 	background-color: #ffffff;
 	color: #000000;
@@ -575,13 +575,9 @@ a {
 	border-radius: 3px;
 }
 
-.contacts {
-	width: 300px;
-}
-
 .contacts-button-map {
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 45px;
 }
 
 .contacts p {
