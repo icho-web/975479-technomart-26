@@ -1608,12 +1608,12 @@ a {
 }
 
 #radio-1:checked ~ .slide-1 {
-	background-color: #32425c;
+	background-color: #877669;
 	background-image: url(../img/drills.jpg)
 }
 
 #radio-2:checked ~ .slide-2 {
-	background-color: #32425c;
+	background-color: #877669;
 	background-image: url(../img/perforators.jpg)
 }
 
