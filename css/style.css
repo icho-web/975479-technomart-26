@@ -442,17 +442,14 @@ a {
 	fill: #32425c;
 }
 
-.user:active svg {
+.user:active {
 	opacity: 0.3;
 }
 
 .log-out {
 	position: absolute;
-	right: 1px;
+	right: 10px;
 	top: 14px;
-
-	width: 30px;
-	height: 30px;
 
 	align-items: center;
 
@@ -1639,10 +1636,6 @@ a {
 	cursor: pointer;
 }
 
-.slider-radio label:focus {
-	outline: 2px solid red;
-}
-
 .left::before {
 	content: "";
 
@@ -1704,7 +1697,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	width: 940px;
-	height: 89px;
+	min-height: 89px;
 	padding-left: 28px;
 	padding-right: 24px;
 	margin-bottom: 20px;
@@ -1954,14 +1947,17 @@ a {
 
 .left-button {
 	position: absolute;
-	top: -9px;
+	top: -17px;
+
 	cursor: pointer;
 }
 
 .right-button {
 	position: absolute;
 	left: 140px;
-	top: -9px;
+	top: -17px;
+	z-index: 1;
+
 	cursor: pointer;
 }
 
