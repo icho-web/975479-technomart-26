@@ -20,12 +20,14 @@
         </a>
         <ul class="user-navigation-list">
           <li class="search">
-            <input id="search" type="search" placeholder="Поиск:">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
-              <path fill="#ffffff"
-                d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
-            </svg>
-          </li>
+            <form method="get" action="https://echo.htmlacademy.ru">
+              <label class="visually-hidden" for="search">Поиск</label>
+              <input class="search-input" id="search" type="search" placeholder="Поиск:">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+                <path fill="#ffffff"
+                  d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
+              </svg>
+            </form>
           <li class="favorite">
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
@@ -105,8 +107,8 @@
             <input class="visually-hidden radio-focus" type="radio" id="radio-1" name="radio" checked>
             <input class="visually-hidden radio-focus" type="radio" id="radio-2" name="radio">
             <div class="slider-radio">
-              <label class="left" for="radio-1"></label>
-              <label class="right" for="radio-2"></label>
+              <label class="left" for="radio-1"><span class="visually-hidden">Перелистнуть налево</span></label>
+              <label class="right" for="radio-2"><span class="visually-hidden">Перелистнуть направо</span></label>
             </div>
             <div class="slide-1">
               <h2>Дрели</h2>
@@ -256,7 +258,7 @@
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами,
             заехав в наш офис:</p>
-          <a class="contacts-button-map" href="#"><img src="img/map.jpg" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="300" height="158"></a>
+          <a class="contacts-button-map" href="#"><img src="img/map.jpg" alt="Мы находимся по адресу: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8" width="300" height="158"></a>
           <a class="button-red open-popup" href="#">Заблудились? Напишите нам!</a>
         </section>
       </div>
@@ -274,22 +276,22 @@
     </section>
     <section class="modal popup">
       <h2 class="visually-hidden">Обратная связь</h2>
-      <form method="get" action="https://echo.htmlacademy.ru">
+      <form action="https://echo.htmlacademy.ru" method="post">
         <div class="input-field">
           <p>
             <label for="name">Ваше имя:</label>
-            <input class="input-size label-name" name="name" id="name" type="text" placeholder="Имя Фамилия" required>
+            <input class="input-size label-name validation" name="name" id="name" type="text" placeholder="Имя Фамилия">
           </p>
           <p>
             <label for="e-mail">Ваш e-mail:</label>
-            <input class="input-size" name="email" required id="e-mail" type="email" placeholder="email@example.com">
+            <input class="input-size validation" name="email" id="e-mail" type="email" placeholder="email@example.com">
             <p class="text">
               <label for="text">Текст письма:</label>
-              <textarea name="text" id="text" placeholder="В свободной форме" required=""></textarea>
+              <textarea class="validation" name="text" id="text" placeholder="В свободной форме"></textarea>
             </p>
         </div>
         <div class="send-button">
-          <button class="button-red popup-button">Отправить</button>
+          <button type="submit" class="button-red popup-button">Отправить</button>
         </div>
         <button class="close-popup" type="button"><span class="visually-hidden">Закрыть</span></button>
       </form>
@@ -316,7 +318,7 @@
             <p>Техномарт</p>
           </div>
           <p class="footer-location">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-            +7 (812) 555-05-55
+              <a href="tel:78125550555">+7 (812) 555-05-55</a>
           </p>
         </div>
         <div class="footer-lists">
