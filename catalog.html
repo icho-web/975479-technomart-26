@@ -4,11 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -135,12 +133,14 @@
                 <p>Цена:</p>
                 <div class="range">
                   <div class="green-bar">
-                    <img class="left-button" src="img/filter-button.svg" alt="Левый ползунок стоимости" width="22" height="40">
-                    <img class="right-button" src="img/filter-button.svg" alt="Правый ползунок стоимости" width="22" height="40">
+                    <img class="left-button" src="img/filter-button.svg" alt="Левый ползунок стоимости" width="22"
+                      height="40">
+                    <img class="right-button" src="img/filter-button.svg" alt="Правый ползунок стоимости" width="22"
+                      height="40">
                   </div>
                 </div>
                 <input type="text" value="0" id="left-range">
-                 — 
+                —
                 <input type="text" value="30000" id="right-range">
                 <label class="visually-hidden">От нуля</label>
                 <label class="visually-hidden">До 30000</label>
@@ -195,32 +195,32 @@
             <ul class="sorting">
               <li>Сортировка:</li>
               <li>
-                <button type="button" class="button sorting-button">
+                <a class="button sorting-button" href="#">
                   <span class="sorting-span">По цене</span>
-                </button>
+                </a>
               </li>
               <li>
-                <button type="button" class="button sorting-button">
+                <a class="button sorting-button" href="#">
                   <span class="sorting-span">По типу</span>
-                </button>
+                </a>
               </li>
               <li>
-                <button type="button" class="button sorting-button">
+                <a class="button sorting-button" href="#">
                   <span class="sorting-span">По функционалу</span>
-                </button>
+                </a>
               </li>
               <li class="icon-up">
                 <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                      <path fill="#231F20" d="M5.5 0L0 10h11z" />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                    <path fill="#231F20" d="M5.5 0L0 10h11z" />
+                  </svg>
                 </button>
               </li>
               <li class="icon-down">
                 <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                      <path fill="#231F20" d="M5.5 10L0 0h11" />
-                    </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                    <path fill="#231F20" d="M5.5 10L0 0h11" />
+                  </svg>
                 </button>
               </li>
             </ul>
@@ -232,7 +232,7 @@
                 <a class="price" href="#">15500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product">
@@ -242,7 +242,7 @@
                 <a class="price" href="#">25500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product new">
@@ -252,7 +252,7 @@
                 <a class="price" href="#">12500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product">
@@ -262,7 +262,7 @@
                 <a class="price" href="#">15500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product new">
@@ -272,7 +272,7 @@
                 <a class="price" href="#">25500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product">
@@ -282,7 +282,7 @@
                 <a class="price" href="#">12500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product new">
@@ -292,7 +292,7 @@
                 <a class="price" href="#">15500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product">
@@ -302,7 +302,7 @@
                 <a class="price" href="#">25500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
               <li class="catalog-product">
@@ -312,7 +312,7 @@
                 <a class="price" href="#">12500 Р.</a>
                 <div class="buy-buttons">
                   <a class="button buy-1" href="#">Купить</a>
-                  <button class="button buy-2">В закладки</button>
+                  <a class="button buy-2">В закладки</a>
                 </div>
               </li>
             </ul>
@@ -421,7 +421,7 @@
       </div>
     </section>
   </footer>
-  <script src="js/catalog-cart.js"></script>
+  <script src="js/catalog-cart.min.js"></script>
 </body>
 
 </html>
